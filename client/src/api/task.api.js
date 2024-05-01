@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:4000/tasks";
+const BASE_URL = "https://task-mern-sql-production.up.railway.app/tasks";
 
 export const getTasksRequest = async () =>
     await axios.get(BASE_URL);
